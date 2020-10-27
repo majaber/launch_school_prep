@@ -50,3 +50,12 @@ Worked on arrays and hashes.
 Hash.new or hash = {
   "key" => "value"
 }
+
+.split method takes your string and turns it into an array!
+.sort_by function returns as an array of arrays
+
+-Takeaways from Hashes and Arrays section-
+I know this was only an introduction to Hashes but I thoroughly enjoyed working through the examples
+and problem today.  I found it to be a nice mental stretch and was able to slowly disect and understand the
+concepts of the material.  Again, I know I went through this lesson once before but having it been close to 2 years
+ago, I feel confident.  The material is coming to me quickly and honestly more clearly.
