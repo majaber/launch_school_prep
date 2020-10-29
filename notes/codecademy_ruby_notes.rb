@@ -59,3 +59,25 @@ I know this was only an introduction to Hashes but I thoroughly enjoyed working 
 and problem today.  I found it to be a nice mental stretch and was able to slowly disect and understand the
 concepts of the material.  Again, I know I went through this lesson once before but having it been close to 2 years
 ago, I feel confident.  The material is coming to me quickly and honestly more clearly.
+
+10/27/20
+Working with Methods, Blocks, & Sorting
+Methods
+ex: Defining a method
+def method_name
+  #Do something code Block
+end
+
+Splat arguments (* before an argument) tells the program that the method can receive one or more arguments.
+Very happy that I was able to put together this bit of code:
+def greeter(name)
+  return ("Hello " + name +"!")
+end
+
+def by_three?(number)
+  if number % 3 == 0
+    return true
+  else
+    return false
+  end
+end
