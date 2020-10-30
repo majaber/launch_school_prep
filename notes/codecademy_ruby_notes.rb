@@ -81,3 +81,30 @@ def by_three?(number)
     return false
   end
 end
+
+In Ruby: False and nil are not the same. They are the only two non-true values of the framework.
+False = no true
+Nil = nothing at all
+
+Variables that start with colons (:) are 'symbols'
+There can only ever be one copy of a particular symbol at a time. Whereas you can have multiple copies of strings.
+
+The first character after the colon of a symbol has to be a letter or an underscore.
+Primarily used as hash keys or referencing method names.
+ * They cannot be changed once created
+ * Only one copy can exist at a time so they save memory
+ * Symbol as keys are faster than strings as keys because of the above two reasons.
+ converting to symbol (.to_sym)
+ .inter == .to_sym
+ Same thing, this will internalize the string into a symbol.
+
+ New Hash syntax
+  * No hash rocket (=>)
+  * Similar to Javascript and Python
+  * Colon now comes at the end of the symbol
+
+.select to filter values of a hash for certain values
+
+You have the option to iterate over the key or the value! no need to iterate over both
+if you do not want to.
+  Use: .each_key or .each_value on your hashes
