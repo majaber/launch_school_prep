@@ -128,4 +128,19 @@ case (variable)
   when () then ()
   when () then ()
   else ()
-end 
+end
+
+conditional assignment operator ( ||= )
+
+.push can also be used with the shovel/ concatenation operator ( << )
+
+<< is also interchangeable with the + operator.
+ex:
+age = 26
+"I am " + age.to_s + " years old."
+use this instead:
+"I am " << age.to_s << " years old."
+
+Recap on refactoring- I may want to circle back to this lesson.  Towards the end I felt that I wasn't retaining the material
+to the degree that I needed to.  I may just continue on and see if I learn more back
+on the LaunchSchool 'Intro to Ruby textbook'.
