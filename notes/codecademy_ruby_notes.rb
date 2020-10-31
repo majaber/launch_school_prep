@@ -108,3 +108,24 @@ Primarily used as hash keys or referencing method names.
 You have the option to iterate over the key or the value! no need to iterate over both
 if you do not want to.
   Use: .each_key or .each_value on your hashes
+
+Universal verbs "CRUD"
+Create (add), Read (display), Update, Delete.
+
+Refactoring
+Ruby is a programmer friendly language
+
+Ternary conditional expressions
+three arugments: boolean, an expression if true, and an expression if false.
+ex:
+[ boolean ? Do this if true : Do this if false ]
+ex:
+[ puts 3 < 4 ? "3 is less than 4!" : "3 is not less than 4." ]
+
+Cleaner "Case"
+case (variable)
+  when () then ()
+  when () then ()
+  when () then ()
+  else ()
+end 
