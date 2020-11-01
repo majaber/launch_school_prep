@@ -144,3 +144,25 @@ use this instead:
 Recap on refactoring- I may want to circle back to this lesson.  Towards the end I felt that I wasn't retaining the material
 to the degree that I needed to.  I may just continue on and see if I learn more back
 on the LaunchSchool 'Intro to Ruby textbook'.
+
+Blocks, Procs, and Lambdas
+
+blocks are a chunk of code that is to be run, almost like an untruthful method.
+will use either do .... end or { ... } curly braces to run the code.
+
+collect is another method. takes a block and applies the expression in the block to every element in an array.
+.collect does not mutate/change the original array.  It simply copies the array and spits it back out while
+leaving the original in tact.
+.collect! - however will mutate and change the original!
+
+when you "Yield" in your method- you are then working on the code outside in the block,
+  from there you can call your own arguments and block of code.
+
+EX:
+
+def double(num)
+  puts "Let's double up!"
+  yield(num)
+end
+
+double(45) {|x| puts x * 2}
