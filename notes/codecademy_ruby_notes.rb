@@ -95,7 +95,7 @@ Primarily used as hash keys or referencing method names.
  * Only one copy can exist at a time so they save memory
  * Symbol as keys are faster than strings as keys because of the above two reasons.
  converting to symbol (.to_sym)
- .inter == .to_sym
+ .intern == .to_sym
  Same thing, this will internalize the string into a symbol.
 
  New Hash syntax
@@ -166,3 +166,29 @@ def double(num)
 end
 
 double(45) {|x| puts x * 2}
+
+Procs are 'saved' blocks.  DRY- Don't Repeat Yourself
+You write your code once (name it) and can use it many times over.
+
+Proc.new {|x| ...}
+
+.collect! == .map!
+include an & symbol before the proc name as it changes a proc to a block for the sake of our methods
+Do this anytime we pass a proc to a method that expects a block.
+
+.map = .collect
+applies the expression to each element in the array
+
+You can call a Proc directly in ruby using the .call method.
+
+lambdas are almost equal to Procs
+lambdas { |param| block}
+
+.magic? - this checks for symbols
+
+11/01/20
+I have completed the Codecademy lessons on Ruby 1-8.  Overall i felt very good with the last section,
+Blocks, Procs, & Lambdas.
+They were fairly easy to follow.
+My only real pain point was the refactoring section.  I may go back through it again
+but i hope that working through the launch school ruby textbook next, will be more than sufficient.
