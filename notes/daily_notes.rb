@@ -24,3 +24,32 @@ PRY -
 where 'binding.pry' was declared- the program will open up a new pry session that allows you to debug and
 inspect the code.
 A better option that simply using puts as this allows you to see what's really happening with your code.
+
+11/04/2020 - Ch 1. The Basics
+
+Strings-
+You can use single quotes or double quotes.  If you use single quotes remember to 'escape' the ruby syntax with
+a \ backslash character.  This tells the computer not to treat the single quote as ruby syntax but as regular text.
+
+ex: 'The man said, \'Hi there!\''
+ex: "The man said, 'Hi there!'"
+
+NIL -
+nil can be treated as false is some respects.  When you use it in an expression such as an if it will be treated
+as such.
+
+Modulo operator - returns the remainder
+(quotient) & (modulus)
+16 % 4 => 0
+16 % 5 => 1
+
+Some differences between Modulo and remainder
+* The modulo will be positive if the second operand is positive and negative if the second operand is negative.
+* The remainder will be positive if the first operand is positive and negative if the first operand is negative.
+
+Using floats, especially with division will give you more accurate numbers.
+ex.
+15 / 4 => 3
+15.0 / 4 => 3.75
+
+Ruby expressions will always return a value
