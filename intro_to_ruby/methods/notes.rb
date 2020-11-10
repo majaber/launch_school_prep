@@ -25,3 +25,11 @@ puts a # a would equal 5 as 3 is only inside the scope of the method.
 
 "return" allows yo to explicitly return a value
 - will not execute the next line
+
+Chaining Methods
+- if anywhere along the chain, theres a nil or an exception is thrown,
+  the entire chained call will break down.
+
+a return with nothing after it will result in ruby exiting the code/method.
+
+(p) can be used to print the return value 
