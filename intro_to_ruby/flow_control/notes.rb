@@ -17,3 +17,11 @@ In Ruby, every expression evaluates to "true" when used in flow control,
 except for false and nil.
 
 When working with || as long as one of the operands is 'true' then the expression returns true.
+
+ex6.rb
+false
+false
+false
+true
+false
+true 
