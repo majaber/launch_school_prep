@@ -56,3 +56,7 @@ rescue is a way to keep your program/block from grinding to a hault.
 Exceptions & Stack Traces
 *Develop an eye for parsing together errors and their explanations
 *Beign able to trace the execution flow is a very useful way to drill down to the source of the error.
+
+call method allows us to run our method
+
+& amersand must be included when running a block as a parameter.
