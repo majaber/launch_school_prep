@@ -32,3 +32,11 @@ ex:
 for (name of our testing variable) in (name of array)
   #code block goes here
 end
+
+11/23/20 Loops II & begin User Input
+::between method takes rwo arguments and returns a boolean
+if the caller\'s value is between two integers
+::empty? method checks to see if our array is element and returns
+a boolean
+
+::times method used on integers counts from 0 to one less than the specified number.
