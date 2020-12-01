@@ -44,3 +44,11 @@ a boolean
 11/25/20 User Input
 %w() is a an array shortcut
 ex: %w(y n) => ["y", "n"]
+
+11/30/20
+return tellls the method to end, which means anything after that line wont
+be processed.
+
+12/01/20
+Integer::times begins counting up from zero. after it is done iterating
+it will return the original integer.
