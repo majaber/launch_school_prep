@@ -46,7 +46,7 @@ a boolean
 ex: %w(y n) => ["y", "n"]
 
 11/30/20
-return tellls the method to end, which means anything after that line wont
+return tells the method to end, which means anything after that line wont
 be processed.
 
 12/01/20
