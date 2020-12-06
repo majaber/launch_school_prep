@@ -60,3 +60,13 @@ Strings
   Returns an integer of 0
   If less than the argument then -1
   If more than the argument then 1
+
+12/07/20
+::gsub allows you to replace specific characters within the strings
+by modifying the original object.
+"Global Substitution"
+
+::split(//) or with quotes will split each character of the string
+and return an array.
+-it will remove every instance of the argument you provide.
+- use an empty string as it splits to each character 
