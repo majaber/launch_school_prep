@@ -52,3 +52,11 @@ be processed.
 12/01/20
 Integer::times begins counting up from zero. after it is done iterating
 it will return the original integer.
+
+12/05/20
+Strings
+::casecmp() compares the value of two string while ignoring the case
+  of both strings
+  Returns an integer of 0
+  If less than the argument then -1
+  If more than the argument then 1
