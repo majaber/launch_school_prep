@@ -6,12 +6,13 @@ things.shuffle!
 
 i = 0
 loop do
+  break if i > things.length - 1
+
   if i == 0
     puts 'I have a ' + colors[i] + ' ' + things[i] + '.'
-
   else
     puts 'And a ' + colors[i] + ' ' + things[i] + '.'
   end
-  break if i > colors.length
+
   i += 1
 end
